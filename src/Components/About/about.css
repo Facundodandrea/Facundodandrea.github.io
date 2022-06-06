@@ -1,0 +1,43 @@
+.label-back{
+    width: 204px;
+    transition: all .3s ease-in-out;
+    margin-left: 1473px;
+}
+
+.label-back:after{
+    transition: all .3s ease-in-out;
+    content: "FD";
+}
+
+.label-back:hover:after{
+    content: "Go to home";
+    margin-right: 80px;
+}
+
+.text-container{
+    width: 55%;
+    height: 75vh;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 3%;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.download{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 39vw;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #b11340;
+}
+
+.about-photo{
+    width: 700px;
+    height: 900px;
+    position: absolute;
+    margin-left: -5vw;
+    overflow: hidden;
+}

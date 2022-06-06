@@ -1,0 +1,87 @@
+
+.container{
+    width: 3400px;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.animate{
+    color: transparent;
+    text-align: justify;
+}
+
+.hide-text{
+    position: absolute;
+    width: 610px;
+    top: 30%;
+    left: 15%;
+}
+
+.animate:hover{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-left: 2%;
+}
+
+.text-color-white{
+    font-size: 10rem;
+    line-height: 80%;
+    color: #F4F4F4;
+}
+
+.text-color-gradient{
+    font-size: 10rem;
+    line-height: 80%;
+    background: -webkit-linear-gradient(left,#472791,  #b11340);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.label-hello:after{
+    content:"Hello.";
+}
+.label-hello:hover:after{
+    content:"About";
+}
+.label-iam:after{
+    content:"I am";
+}
+.label-iam:hover:after{
+    content:"Works";
+}
+.label-name:after{
+    content:"Facundo";
+}
+.label-name:hover:after{
+	content:"Contact";
+}
+
+.bg-photo{
+    width: 500px !important;
+    height: 500px !important;
+    position: absolute;
+    margin-left: 50%;
+    top: 15%;
+    z-index: -2;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 50%;
+    height: 50px;
+    display: flex;
+}
+
+#about{
+    position: absolute;
+    position: relative;
+    bottom: auto;
+    float: right;
+    left: 50%;
+}
